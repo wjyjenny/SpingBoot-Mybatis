@@ -1,0 +1,29 @@
+1.在resources中新建application.yml
+
+server:
+
+  port: 8080
+
+pocket:
+
+  name: guoguo
+
+  age: 26
+
+  address: 长宁区
+
+直接即可，无需转码，文字也不会有乱码的情况
+
+2.在resources中新建application.properties
+
+server.port=8080
+
+pocket.name=guoguo
+
+pocket.age=26
+
+pocket.address=长宁区
+
+通过http://tool.chinaz.com/tools/unicode.aspx网站，将长宁区在线转码为\u957f\u5b81\u533a
+
+即**pocket.address=长宁区**改为*pocket.address=\u957f\u5b81\u533a*
