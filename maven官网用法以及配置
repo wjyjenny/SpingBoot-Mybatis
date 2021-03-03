@@ -1,0 +1,9 @@
+#如果要下载最近的maven就可以在官网下
+但是在pom里面要把version改掉
+http://maven.apache.org/index.html
+
+#查看maven的用法
+https://mvnrepository.com/
+
+#如何用IDEA配置maven
+https://blog.csdn.net/westos_linux/article/details/78968012
